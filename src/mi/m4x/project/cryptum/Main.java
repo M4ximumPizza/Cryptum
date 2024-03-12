@@ -51,7 +51,7 @@ public class Main {
                     BufferedWriter writer = new BufferedWriter(new FileWriter(outputFilePath));
                     String line;
                     while ((line = reader.readLine()) != null) {
-                        String result = "";
+                        String result;
                         switch (algorithm) {
                             case 1:
                                 result = isDecryption ? CaesarCipher.decrypt(line) : CaesarCipher.encrypt(line);
@@ -79,7 +79,7 @@ public class Main {
             case 2:
                 System.out.println("Enter text:");
                 String text = scanner.nextLine();
-                String result = "";
+                String result;
                 switch (algorithm) {
                     case 1:
                         result = isDecryption ? CaesarCipher.decrypt(text) : CaesarCipher.encrypt(text);
