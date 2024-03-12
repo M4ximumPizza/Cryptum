@@ -1,5 +1,11 @@
 package mi.m4x.project.cryptum;
 
+/**
+ * This class is used to encrypt and decrypt text using a XOR cipher.
+ *
+ * @author M4ximumPizza
+
+ */
 public class XOREncryption {
     public static String encrypt(String plaintext) {
         char[] key = {'K', 'E', 'Y'};

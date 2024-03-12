@@ -1,5 +1,10 @@
 package mi.m4x.project.cryptum;
 
+/**
+ * This class is used to encrypt and decrypt text using a substitution cipher.
+ *
+ * @author M4ximumPizza
+ */
 public class SubstitutionCipher {
     private static final String ALPHABET = "abcdefghijklmnopqrstuvwxyz";
     private static final String KEY = "xyzabcdefghijklmnopqrstuvw";

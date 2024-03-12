@@ -1,5 +1,10 @@
 package mi.m4x.project.cryptum;
 
+/**
+ * This class is used to encrypt and decrypt text using a Caesar cipher.
+ *
+ * @author M4ximumPizza
+ */
 public class CaesarCipher {
     public static String encrypt(String plaintext) {
         int shift = 3;
